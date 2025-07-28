@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - AXZRO</title>
+    <meta name="description" content="Get in touch with AXZRO for your web development, cybersecurity, and training needs. Contact our expert team today for a free consultation.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="container">
+            <nav class="nav-wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                        <span class="logo-text">AXZRO</span>
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="academy.html" class="nav-link">Academy</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+                
+                <!-- Mobile Hamburger -->
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="hero-background">
+            <div class="animated-bg"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content text-center">
+                <h1 class="hero-title slide-in-left">Get In Touch</h1>
+                <p class="hero-subtitle fade-in-up">
+                    Ready to transform your digital presence? Let's discuss your project 
+                    and create something amazing together.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form-section fade-in-up">
+                    <h2 class="form-title">Start Your Project</h2>
+                    <p class="form-subtitle">
+                        Tell us about your needs and we'll get back to you within 24 hours.
+                    </p>
+                    
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" class="form-input" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Company/Organization</label>
+                            <input type="text" id="company" name="company" class="form-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Interest *</label>
+                            <select id="service" name="service" class="form-input" required>
+                                <option value="">Select a service...</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="cybersecurity">Cybersecurity</option>
+                                <option value="tech-academy">Tech Academy</option>
+                                <option value="consulting">Consulting</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Project Budget</label>
+                            <select id="budget" name="budget" class="form-input">
+                                <option value="">Select budget range...</option>
+                                <option value="under-1k">Under $1,000</option>
+                                <option value="1k-5k">$1,000 - $5,000</option>
+                                <option value="5k-10k">$5,000 - $10,000</option>
+                                <option value="10k-25k">$10,000 - $25,000</option>
+                                <option value="25k-plus">$25,000+</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="timeline">Project Timeline</label>
+                            <select id="timeline" name="timeline" class="form-input">
+                                <option value="">Select timeline...</option>
+                                <option value="asap">ASAP (Rush Job)</option>
+                                <option value="1-month">Within 1 Month</option>
+                                <option value="2-3-months">2-3 Months</option>
+                                <option value="3-6-months">3-6 Months</option>
+                                <option value="6-months-plus">6+ Months</option>
+                                <option value="flexible">Flexible</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" class="form-textarea" 
+                                placeholder="Tell us about your project, goals, and any specific requirements..." required></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <span class="checkmark"></span>
+                                Subscribe to our newsletter for tech tips and updates
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary glow-effect btn-full-width">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="contact-info-section fade-in-up delay-1">
+                    <h3 class="info-title">Let's Connect</h3>
+                    <p class="info-subtitle">
+                        Have questions? We're here to help you succeed.
+                    </p>
+                    
+                    <div class="contact-info-grid">
+                        <div class="contact-info-card">
+                            <div class="contact-icon">📧</div>
+                            <h4>Email Us</h4>
+                            <p>hello@axzro.com</p>
+                            <p>support@axzro.com</p>
+                        </div>
+                        
+                        <div class="contact-info-card">
+                            <div class="contact-icon">📞</div>
+                            <h4>Call Us</h4>
+                            <p>+1 (555) 123-4567</p>
+                            <p>Mon-Fri, 9AM-6PM EST</p>
+                        </div>
+                        
+                        <div class="contact-info-card">
+                            <div class="contact-icon">💬</div>
+                            <h4>Live Chat</h4>
+                            <p>Available 24/7</p>
+                            <button class="btn btn-secondary btn-sm" onclick="alert('Chat feature coming soon!')">
+                                Start Chat
+                            </button>
+                        </div>
+                        
+                        <div class="contact-info-card">
+                            <div class="contact-icon">🌐</div>
+                            <h4>Social Media</h4>
+                            <div class="social-links-grid">
+                                <a href="#" class="social-link-item">LinkedIn</a>
+                                <a href="#" class="social-link-item">YouTube</a>
+                                <a href="#" class="social-link-item">Medium</a>
+                                <a href="#" class="social-link-item">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="response-time">
+                        <h4>⚡ Quick Response Promise</h4>
+                        <p>We respond to all inquiries within 24 hours during business days.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title fade-in-up">Frequently Asked Questions</h2>
+                <p class="section-subtitle fade-in-up">
+                    Quick answers to common questions about our services
+                </p>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item fade-in-up">
+                    <button class="faq-question">
+                        What services does AXZRO offer?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>AXZRO offers three core services: Web Development & Design (custom websites and applications), 
+                        Cybersecurity & Infrastructure (security audits and protection), and Tech Academy & Training 
+                        (industry-ready education programs). We provide comprehensive digital solutions tailored to your needs.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item fade-in-up delay-1">
+                    <button class="faq-question">
+                        How long does a typical web development project take?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Project timelines vary based on complexity and requirements. A basic website typically takes 2-4 weeks, 
+                        while custom web applications can take 6-12 weeks. We provide detailed timelines during the planning phase 
+                        and keep you updated throughout the development process.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item fade-in-up delay-2">
+                    <button class="faq-question">
+                        Do you offer ongoing support and maintenance?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! We provide ongoing support and maintenance packages to keep your website secure, updated, and 
+                        performing optimally. Our support includes security monitoring, content updates, performance optimization, 
+                        and technical assistance.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item fade-in-up delay-3">
+                    <button class="faq-question">
+                        What makes AXZRO Academy different from other training programs?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>AXZRO Academy focuses on hands-on, real-world projects with expert mentorship. Our curriculum is 
+                        designed by industry professionals, includes career support, and maintains a 95% job placement rate. 
+                        We offer flexible learning options and a supportive community environment.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item fade-in-up delay-1">
+                    <button class="faq-question">
+                        How do you handle cybersecurity for small businesses?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We provide comprehensive cybersecurity solutions scaled for small businesses, including security audits, 
+                        vulnerability assessments, firewall setup, and ongoing monitoring. Our approach is cost-effective while 
+                        maintaining enterprise-level security standards.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item fade-in-up delay-2">
+                    <button class="faq-question">
+                        Can you work with existing websites or applications?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! We can audit, optimize, secure, and enhance existing websites and applications. Whether you 
+                        need performance improvements, security updates, new features, or a complete redesign, we can help modernize 
+                        your existing digital assets.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section (Placeholder) -->
+    <section class="map-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title fade-in-up">Visit Our Office</h2>
+                <p class="section-subtitle fade-in-up">
+                    Schedule an in-person consultation at our headquarters
+                </p>
+            </div>
+            
+            <div class="map-container fade-in-up">
+                <div class="map-placeholder">
+                    <div class="map-content">
+                        <h3>AXZRO Headquarters</h3>
+                        <p>123 Tech Innovation Drive<br>
+                        Digital City, DC 12345<br>
+                        United States</p>
+                        <p><strong>Office Hours:</strong><br>
+                        Monday - Friday: 9:00 AM - 6:00 PM EST<br>
+                        Saturday: 10:00 AM - 4:00 PM EST<br>
+                        Sunday: Closed</p>
+                        <button class="btn btn-primary" onclick="alert('Map integration coming soon!')">
+                            Get Directions
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content text-center">
+                <h2 class="cta-title fade-in-up">Ready to Get Started?</h2>
+                <p class="cta-subtitle fade-in-up">
+                    Join hundreds of satisfied clients who trust AXZRO for their technology needs
+                </p>
+                <div class="cta-buttons fade-in-up">
+                    <a href="#contact-form" class="btn btn-primary glow-effect">Send Us a Message</a>
+                    <a href="services.html" class="btn btn-outline">View Our Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>AXZRO</h3>
+                        <p>Digital Excellence Through Innovation</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">YouTube</a>
+                        <a href="#" class="social-link">Medium</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#web-dev">Web Development</a></li>
+                        <li><a href="services.html#cybersecurity">Cybersecurity</a></li>
+                        <li><a href="academy.html">Tech Academy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#" onclick="alert('Coming Soon!')">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Get In Touch</h4>
+                    <div class="contact-info">
+                        <p>Email: hello@axzro.com</p>
+                        <p>Phone: +1 (555) 123-4567</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 AXZRO. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/navigation.js"></script>
+    <script>
+        // Contact form handling
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contact-form');
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            // Form submission
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Form validation and submission logic would go here
+                alert('Thank you for your message! We\'ll get back to you within 24 hours.');
+                
+                // Reset form
+                contactForm.reset();
+            });
+            
+            // FAQ accordion functionality
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                const answer = item.querySelector('.faq-answer');
+                const icon = item.querySelector('.faq-icon');
+                
+                question.addEventListener('click', () => {
+                    const isActive = item.classList.contains('active');
+                    
+                    // Close all FAQ items
+                    faqItems.forEach(faqItem => {
+                        faqItem.classList.remove('active');
+                        faqItem.querySelector('.faq-answer').style.display = 'none';
+                        faqItem.querySelector('.faq-icon').textContent = '+';
+                    });
+                    
+                    // Toggle current item
+                    if (!isActive) {
+                        item.classList.add('active');
+                        answer.style.display = 'block';
+                        icon.textContent = '−';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

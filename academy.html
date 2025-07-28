@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AXZRO Academy - Learn Technology</title>
+    <meta name="description" content="Join AXZRO Academy for comprehensive tech training. Learn Web Development, Cybersecurity, and AI with hands-on projects and expert mentorship.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="container">
+            <nav class="nav-wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                        <span class="logo-text">AXZRO</span>
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="academy.html" class="nav-link active">Academy</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <!-- Mobile Hamburger -->
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="hero-background">
+            <div class="animated-bg"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content text-center">
+                <h1 class="hero-title slide-in-left">AXZRO Academy</h1>
+                <p class="hero-subtitle fade-in-up">
+                    Transform your career with industry-ready tech training. From beginner to expert, 
+                    learn with hands-on projects and expert mentorship.
+                </p>
+                <div class="hero-cta fade-in-up">
+                    <a href="#courses" class="btn btn-primary glow-effect">Browse Courses</a>
+                    <a href="contact.html" class="btn btn-secondary">Book Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academy Stats -->
+    <section class="academy-stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item fade-in-up">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Students Trained</div>
+                </div>
+                <div class="stat-item fade-in-up delay-1">
+                    <div class="stat-number">95%</div>
+                    <div class="stat-label">Job Placement Rate</div>
+                </div>
+                <div class="stat-item fade-in-up delay-2">
+                    <div class="stat-number">20+</div>
+                    <div class="stat-label">Expert Instructors</div>
+                </div>
+                <div class="stat-item fade-in-up delay-3">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Hands-on Projects</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Filters -->
+    <section class="course-filters" id="courses">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title fade-in-up">Our Courses</h2>
+                <p class="section-subtitle fade-in-up">
+                    Choose from our comprehensive selection of technology courses
+                </p>
+            </div>
+            
+            <div class="filter-tabs" id="course-filters">
+                <button class="filter-tab active" data-filter="all">All Courses</button>
+                <button class="filter-tab" data-filter="web-dev">Web Development</button>
+                <button class="filter-tab" data-filter="cybersecurity">Cybersecurity</button>
+                <button class="filter-tab" data-filter="ai-ml">AI & Machine Learning</button>
+                <button class="filter-tab" data-filter="cloud">Cloud Computing</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Grid -->
+    <section class="courses-section">
+        <div class="container">
+            <div class="course-grid" id="course-grid">
+                <!-- Web Development Courses -->
+                <div class="course-card fade-in-up" data-category="web-dev">
+                    <div class="course-image">
+                        <span class="course-emoji">🌐</span>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-level">Beginner</span>
+                        <h3 class="course-title">HTML, CSS & JavaScript Fundamentals</h3>
+                        <p class="course-description">
+                            Master the building blocks of web development. Learn to create responsive, 
+                            interactive websites from scratch with modern HTML5, CSS3, and JavaScript.
+                        </p>
+                        <div class="course-meta">
+                            <span class="course-duration">8 Weeks</span>
+                            <span class="course-price">$299</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary">Enroll Now</a>
+                    </div>
+                </div>
+                
+                <div class="course-card fade-in-up delay-1" data-category="web-dev">
+                    <div class="course-image">
+                        <span class="course-emoji">⚛️</span>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-level">Intermediate</span>
+                        <h3 class="course-title">React & Next.js Mastery</h3>
+                        <p class="course-description">
+                            Build modern, scalable web applications with React and Next.js. Learn hooks, 
+                            state management, routing, and deployment strategies.
+                        </p>
+                        <div class="course-meta">
+                            <span class="course-duration">10 Weeks</span>
+                            <span class="course-price">$399</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary">Enroll Now</a>
+                    </div>
+                </div>
+                
+                <div class="course-card fade-in-up delay-2" data-category="web-dev">
+                    <div class="course-image">
+                        <span class="course-emoji">🔧</span>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-level">Advanced</span>
+                        <h3 class="course-title">Full-Stack Development Bootcamp</h3>
+                        <p class="course-description">
+                            Complete full-stack development course covering frontend, backend, databases, 
+                            and deployment. Build a portfolio of real-world projects.
+                        </p>
+                        <div class="course-meta">
+                            <span class="course-duration">16 Weeks</span>
+                            <span class="course-price">$799</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary">Enroll Now</a>
+                    </div>
+                </div>
+                
+                <!-- Cybersecurity Courses -->
+                <div class="course-card fade-in-up" data-category="cybersecurity">
+                    <div class="course-image">
+                        <span class="course-emoji">🛡️</span>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-level">Beginner</span>
+                        <h3 class="course-title">Cybersecurity Fundamentals</h3>
+                        <p class="course-description">
+                            Introduction to cybersecurity principles, threat landscape, and basic security 
+                            measures. Perfect for beginners entering the security field.
+                        </p>
+                        <div class="course-meta">
+                            <span class="course-duration">6 Weeks</span>
+                            <span class="course-price">$349</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary">Enroll Now</a>
+                    </div>
+                </div>
+                
+                <div class="course-card fade-in-up delay-1" data-category="cybersecurity">
+                    <div class="course-image">
+                        <span class="course-emoji">🕵️</span>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-level">Intermediate</span>
+                        <h3 class="course-title">Ethical Hacking & Penetration Testing</h3>
+                        <p class="course-description">
+                            Learn ethical hacking techniques, vulnerability assessment, and penetration 
+                            testing methodologies used by security professionals.
+                        </p>
+                        <div class="course-meta">
+                            <span class="course-duration">12 Weeks</span>
+                            <span class="course-price">$599</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary">Enroll Now</a>
+                    </div>
+                </div>
+                
+                <div class="course-card fade-in-up delay-2" data-category="cybersecurity">
+                    <div class="course-image">
+                        <span class="course-emoji">🔒</span>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-level">Advanced</span>
+                        <h3 class="course-title">Advanced Security Operations</h3>
+                        <p class="course-description">
+                            Master security operations, incident response, threat hunting, and advanced 
+                            security technologies used in enterprise environments.
+                        </p>
+                        <div class="course-meta">
+                            <span class="course-duration">14 Weeks</span>
+                            <span class="course-price">$699</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary">Enroll Now</a>
+                    </div>
+                </div>
+                
+                <!-- AI & ML Courses -->
+                <div class="course-card fade-in-up" data-category="ai-ml">
+                    <div class="course-image">
+                        <span class="course-emoji">🤖</span>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-level">Beginner</span>
+                        <h3 class="course-title">Introduction to AI & Machine Learning</h3>
+                        <p class="course-description">
+                            Explore the fundamentals of artificial intelligence and machine learning. 
+                            Learn key concepts, algorithms, and practical applications.
+                        </p>
+                        <div class="course-meta">
+                            <span class="course-duration">10 Weeks</span>
+                            <span class="course-price">$449</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary">Enroll Now</a>
+                    </div>
+                </div>
+                
+                <div class="course-card fade-in-up delay-1" data-category="ai-ml">
+                    <div class="course-image">
+                        <span class="course-emoji">📊</span>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-level">Intermediate</span>
+                        <h3 class="course-title">Data Science & Analytics</h3>
+                        <p class="course-description">
+                            Master data analysis, visualization, and statistical modeling. Learn Python, 
+                            pandas, and popular data science libraries.
+                        </p>
+                        <div class="course-meta">
+                            <span class="course-duration">12 Weeks</span>
+                            <span class="course-price">$549</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary">Enroll Now</a>
+                    </div>
+                </div>
+                
+                <!-- Cloud Computing Course -->
+                <div class="course-card fade-in-up" data-category="cloud">
+                    <div class="course-image">
+                        <span class="course-emoji">☁️</span>
+                    </div>
+                    <div class="course-content">
+                        <span class="course-level">Intermediate</span>
+                        <h3 class="course-title">Cloud Computing with AWS</h3>
+                        <p class="course-description">
+                            Learn cloud architecture, deployment, and management using Amazon Web Services. 
+                            Prepare for AWS certification exams.
+                        </p>
+                        <div class="course-meta">
+                            <span class="course-duration">8 Weeks</span>
+                            <span class="course-price">$399</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Features -->
+    <section class="learning-features">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title fade-in-up">Why Choose AXZRO Academy?</h2>
+                <p class="section-subtitle fade-in-up">
+                    Experience a learning approach designed for real-world success
+                </p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-item fade-in-up">
+                    <div class="feature-icon">
+                        <span class="icon">🎯</span>
+                    </div>
+                    <h3 class="feature-title">Hands-On Projects</h3>
+                    <p class="feature-description">
+                        Build real-world projects that demonstrate your skills to potential employers. 
+                        Create a portfolio that stands out in the job market.
+                    </p>
+                </div>
+                
+                <div class="feature-item fade-in-up delay-1">
+                    <div class="feature-icon">
+                        <span class="icon">👨‍🏫</span>
+                    </div>
+                    <h3 class="feature-title">Expert Mentorship</h3>
+                    <p class="feature-description">
+                        Learn from industry professionals with years of experience. Get personalized 
+                        guidance and career advice throughout your journey.
+                    </p>
+                </div>
+                
+                <div class="feature-item fade-in-up delay-2">
+                    <div class="feature-icon">
+                        <span class="icon">🏆</span>
+                    </div>
+                    <h3 class="feature-title">Industry Certifications</h3>
+                    <p class="feature-description">
+                        Earn recognized certifications and credentials that validate your skills and 
+                        increase your employability in the tech industry.
+                    </p>
+                </div>
+                
+                <div class="feature-item fade-in-up delay-3">
+                    <div class="feature-icon">
+                        <span class="icon">💼</span>
+                    </div>
+                    <h3 class="feature-title">Career Support</h3>
+                    <p class="feature-description">
+                        Receive job placement assistance, resume reviews, interview preparation, 
+                        and access to our network of hiring partners.
+                    </p>
+                </div>
+                
+                <div class="feature-item fade-in-up delay-1">
+                    <div class="feature-icon">
+                        <span class="icon">🌐</span>
+                    </div>
+                    <h3 class="feature-title">Flexible Learning</h3>
+                    <p class="feature-description">
+                        Study at your own pace with online and hybrid options. Access course materials 
+                        24/7 and learn around your schedule.
+                    </p>
+                </div>
+                
+                <div class="feature-item fade-in-up delay-2">
+                    <div class="feature-icon">
+                        <span class="icon">🤝</span>
+                    </div>
+                    <h3 class="feature-title">Community Support</h3>
+                    <p class="feature-description">
+                        Join a vibrant community of learners and professionals. Network, collaborate, 
+                        and grow together with peers who share your passion.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Testimonials -->
+    <section class="student-testimonials">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title fade-in-up">Student Success Stories</h2>
+                <p class="section-subtitle fade-in-up">
+                    Hear from graduates who transformed their careers with AXZRO Academy
+                </p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-item fade-in-up">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">
+                            "The Full-Stack Development Bootcamp changed my life. I went from having zero 
+                            coding experience to landing a developer role at a tech startup in just 4 months!"
+                        </p>
+                        <div class="testimonial-author">
+                            <h4 class="author-name">Jessica Martinez</h4>
+                            <p class="author-role">Frontend Developer at TechCorp</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item fade-in-up delay-1">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">
+                            "The cybersecurity course was incredibly comprehensive. The hands-on labs and 
+                            real-world scenarios prepared me perfectly for my role as a security analyst."
+                        </p>
+                        <div class="testimonial-author">
+                            <h4 class="author-name">Ahmed Hassan</h4>
+                            <p class="author-role">Security Analyst at CyberSecure</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item fade-in-up delay-2">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">
+                            "The mentorship program was invaluable. My mentor guided me through every 
+                            challenge and helped me build the confidence to pursue my dream career in AI."
+                        </p>
+                        <div class="testimonial-author">
+                            <h4 class="author-name">Priya Patel</h4>
+                            <p class="author-role">Machine Learning Engineer at DataTech</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content text-center">
+                <h2 class="cta-title fade-in-up">Ready to Start Your Tech Journey?</h2>
+                <p class="cta-subtitle fade-in-up">
+                    Join thousands of students who have transformed their careers with AXZRO Academy
+                </p>
+                <div class="cta-buttons fade-in-up">
+                    <a href="contact.html" class="btn btn-primary glow-effect">Enroll Today</a>
+                    <a href="contact.html" class="btn btn-outline">Schedule Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>AXZRO</h3>
+                        <p>Digital Excellence Through Innovation</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">YouTube</a>
+                        <a href="#" class="social-link">Medium</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#web-dev">Web Development</a></li>
+                        <li><a href="services.html#cybersecurity">Cybersecurity</a></li>
+                        <li><a href="academy.html">Tech Academy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#" onclick="alert('Coming Soon!')">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Get In Touch</h4>
+                    <div class="contact-info">
+                        <p>Email: hello@axzro.com</p>
+                        <p>Phone: +1 (555) 123-4567</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 AXZRO. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/navigation.js"></script>
+    <script>
+        // Course filtering functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterTabs = document.querySelectorAll('.filter-tab');
+            const courseCards = document.querySelectorAll('.course-card');
+            
+            filterTabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    // Remove active class from all tabs
+                    filterTabs.forEach(t => t.classList.remove('active'));
+                    // Add active class to clicked tab
+                    tab.classList.add('active');
+                    
+                    const filter = tab.getAttribute('data-filter');
+                    
+                    courseCards.forEach(card => {
+                        if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                            card.style.display = 'block';
+                            card.classList.add('fade-in-up');
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
